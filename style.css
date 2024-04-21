@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe0f0; /* Latar belakang warna pink muda */
+    text-align: center; /* Memastikan teks di tengah secara horizontal */
+}
+
+.navbar {
+    background-color: #ff80aa; /* Warna pink */
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #f2f2f2;
+    color: #ff80aa;
+}
+
+.container {
+    max-width: 600px; /* Atur lebar maksimum untuk konten */
+    margin: auto; /* Membuat konten berada di tengah */
+    padding: 20px;
+}
+
+#tombolKlik {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff80aa; /* Warna pink */
+    color: white; /* Warna teks */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tombolKlik:hover {
+    background-color: #ff66a3; /* Warna pink saat hover */
+}
+
+#teksTarget {
+    margin-top: 20px;
+    color: #666; /* Warna teks */
+}
